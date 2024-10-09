@@ -1,0 +1,41 @@
+RandomVSRandom Report
+
+1) What is your conclusion, does the first or
+second player have some advantage, at least for a random strategy?
+
+After simulating the code for Random vs Random multiple times I have concluded
+that P2 has a slight advantage over P1. This is conclusion is based on the fact that
+the win probability percentage for P2 always hovered around 50% and around 45% for
+P1 with the rest of the games being a draw.
+
+
+2) Watch https://www.youtube.com/watch?v=Iq9DzN6mvYA
+
+3) Briefly write your thoughts on the above video below:
+
+I believe that the speaker in the video Jake Vanderplas made some really great points. I also
+have tried doing statistics using only math and python and usually find that coding to solve the problem
+is usually easier but also allows for visualization to help you understand the question even better and
+have a better thought and understood answer. The idea of bootstrapping is new to very interesting to me
+and is something that I would like to learn more about. The cross validation technique also intrigues me as
+we are living in a world of AI, and it's something that I would personally want to play around with. Overall, I
+think that the speaker provided many great points and techniques to help when doing statistics, although I would say
+some of the techniques look like they would require a good foundation of knowledge and experience despite to be
+understood completely despite the code looking simple.
+
+4) H0 is: Using a random strategy P2 has an advantage over P1
+
+5) Ha is: Using a random strategy P2 does not have an advantage over P1
+
+6) Choose one of the following and delete the other:
+   My experimental results support H0, so they do not support Ha
+
+7) As in the video, use either math or code (add a Java Class) to argue for or against H0
+
+A simple example could see us using the bootstrap method. I have added the Java class to this
+repo titled HypothesisTesting.java. In the code I am running 10000 games and adding the winner of each game to an
+ArrayList. Then we are randomly sampling from the array 20000 times and using those stats to run the numbers again.
+The outcome of the code supports my H0.
+
+References:
+https://www.thoughtco.com/null-hypothesis-vs-alternative-hypothesis-3126413
